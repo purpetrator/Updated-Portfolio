@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Racks - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Ana Chernov | Full Stack Web Dev</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/fedb65081d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -40,16 +42,10 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Portfolio</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown04">
-              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-              <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
-            </div>
-          </li>
+          <li class="nav-item active"><a href="#section-home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#section-skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#section-counter" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#section-portfolio" class="nav-link">Portfolio</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
       </div>
@@ -60,16 +56,15 @@
   <section class="home-slider ftco-degree-bg">
     <div class="slider-item">
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container" id="section-home">
         <div class="row slider-text align-items-center justify-content-center">
           <div class="col-md-10 ftco-animate text-center">
+
             <h1 class="mb-4">Full Stack
-              <strong class="typewrite" data-period="4000" data-type='[ "Web Developer", "Marketer", "Chicken"]'>
+              <strong class="typewrite" data-period="4000" data-type='[ "Web Developer"]'>
                 <span class="wrap"></span>
               </strong>
             </h1>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-              paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
           </div>
         </div>
       </div>
@@ -77,50 +72,26 @@
   </section>
   <!-- END slider -->
 
-  <!-- <section class="ftco-section-featured ftco-animate">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="carousel owl-carousel">
-            <div class="item">
-              <a href="portfolio.html">
-                <img src="images/dashboard_full_1.jpg" class="img-fluid" alt="">
-              </a>
-            </div>
-            <div class="item">
-              <a href="portfolio.html">
-                <img src="images/dashboard_full_2.jpg" class="img-fluid" alt="">
-              </a>
-            </div>
-            <div class="item">
-              <a href="portfolio.html">
-                <img src="images/dashboard_full_3.jpg" class="img-fluid" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
-
-  <section class="ftco-section ftco-degree-bg">
+  <section class="ftco-section ftco-degree-bg" id="section-skills">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-5">
         <div class="col-md-7 text-center heading-section ftco-animate">
-          <span class="subheading">Our Services</span>
-          <h2>Racks provides a fully featured text services platform!</h2>
+
+          <h2>Hi, I'm Ana. I'm a full stack web dev. My skills include: </h2>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <div class="icon color-1 d-flex justify-content-center mb-3"><span
-                  class="align-self-center icon-layers"></span></div>
+              <div class="icon color-1 d-flex justify-content-center align-items-center mb-3 ">
+                <img src="images/icons8-javascript-50.png" width="50" height="50">
+
+              </div>
             </div>
             <div class="media-body p-2">
-              <h3 class="heading">Unlimited Features</h3>
+              <h3 class="heading">JavaScript</h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
             </div>
           </div>
@@ -128,11 +99,11 @@
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <div class="icon color-2 d-flex justify-content-center mb-3"><span
-                  class="align-self-center icon-gears"></span></div>
+              <div class="icon color-3 d-flex justify-content-center align-items-center mb-3">
+                <img src="images/icons8-html-50.png" width="50" height="50"> </div>
             </div>
             <div class="media-body p-2">
-              <h3 class="heading">Multiple Functions</h3>
+              <h3 class="heading">HTML</h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
             </div>
           </div>
@@ -140,11 +111,13 @@
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <div class="icon color-3 d-flex justify-content-center mb-3"><span
-                  class="align-self-center icon-paper-plane"></span></div>
+              <div class="icon color-2 d-flex justify-content-center align-items-center mb-3">
+
+                <img src="images/icons8-css-50.png" width="50" height="50">
+              </div>
             </div>
             <div class="media-body p-2">
-              <h3 class="heading">Advanced Visualizations</h3>
+              <h3 class="heading">CSS</h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
             </div>
           </div>
@@ -153,17 +126,186 @@
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <div class="icon color-4 d-flex justify-content-center mb-3"><span
-                  class="align-self-center icon-live_help"></span></div>
+              <div class="icon color-4 d-flex justify-content-center align-items-center mb-3">
+                <img src="images/icons8-database-50.png" width="50" height="50"> </div>
             </div>
             <div class="media-body p-2">
-              <h3 class="heading">Community &amp; Supports</h3>
+              <h3 class="heading">Database</h3>
               <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </section>
+
+
+  <section class="ftco-section ftco-counter ftco-degree-bg" id="section-counter">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center">
+            <div class="text">
+              <img
+                src="https://res.cloudinary.com/teepublic/image/private/s--BSaRwvee--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1535475787/production/designs/3078594_0.jpg"
+                width="300">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 d-flex justify-content-center counter-wrap ftco-animate">
+          <div class="block-18 text-center">
+            <div class="text">
+              <h2>Some fun facts about me</h2>
+              <span>Hi, I'm Ana. I'm a digital marketer turned full stack web developer currently living in
+                Philadelphia. I'm passionate about coding, skiing, shetland sheepdogs, and bubbly beverages.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-degree-bg" id="section-portfolio">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section ftco-animate">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/crystal9.png');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">Crystal Collector</a>
+              </h3>
+              <h6 class="mb-3">JQuery, Javascript, HTML, CSS</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/Crystal-Collector">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/Crystal-Collector/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/pom2.jpg');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">Word Guessing Game</a>
+              </h3>
+              <h6 class="mb-3">Javascript, HTML, CSS</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/Word-Guess-Game">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/Word-Guess-Game/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/doll.png');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">GIF Generator</a>
+              </h3>
+              <h6 class="mb-3">API, JQuery, JavaScript</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/GifTastic">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/GifTastic/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+
+      <div class="row">
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/train8.png');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">Train Scheduler</a>
+              </h3>
+              <h6 class="mb-3">Firebase, Moment.js, JQuery</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/Train-Scheduler">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/Train-Scheduler/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/untitled.png');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">Trivia Game</a>
+              </h3>
+              <h6 class="mb-3">JQuery, HTML, CSS</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/TriviaGame">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/TriviaGame/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/Portfolio/snow8.png');">
+            </a>
+            <div class="text p-4 d-block">
+
+              <h3 class="heading"><a href="#">Ski Resort App</a>
+              </h3>
+              <h6 class="mb-3">API, JQuery, CSS</h6>
+              <div class="meta mb-3">
+                <div><a href="https://github.com/purpetrator/Project1">
+                    <h3><i class="fab fa-github"></i>
+                      GitHub
+                  </a></div>
+                <div><a href="https://purpetrator.github.io/Project1/"> <i class="fas fa-mouse-pointer"></i>
+                    Deployed</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
   </section>
 
   <!-- <section class="ftco-section-parallax ftco-degree-bg">
@@ -314,140 +456,44 @@
     </div>
   </section> -->
 
-  <section class="ftco-section ftco-counter ftco-degree-bg" id="section-counter">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-5">
-        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-          <h2>Our achievements</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="1000">0</strong>
-              <span>Customers are satisfied with our professional support</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="12000">0</strong>
-              <span>Amazing preset options to be mixed and combined</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-          <div class="block-18 text-center">
-            <div class="text">
-              <strong class="number" data-number="10000">0</strong>
-              <span>Average response time on live chat support channel</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="ftco-section ftco-degree-bg">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-5">
-        <div class="col-md-7 text-center heading-section ftco-animate">
-          <span class="subheading">Blog</span>
-          <h2>Recent Blog</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-              <div class="meta mb-3">
-                <div><a href="#">July 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="100">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">July 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="200">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">July 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
-              </h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <footer class="ftco-footer ftco-bg-dark ftco-section">
     <div class="container">
       <div class="row mb-5">
-        <div class="col-md">
+
+        <div class="col-md-1 col-lg-1">
+
+        </div>
+
+        <div class="col-md-4 col-lg-4">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Company</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts.</p>
+            <h2 class="ftco-heading-2">Learn More</h2>
+            <p>Check out my GitHub and LinkedIn. Let's get in touch!</p>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              <li class="ftco-animate"><a href="https://github.com/purpetrator"><span class="icon-github"></span></a>
+              </li>
+              <li class="ftco-animate"><a href="https://www.linkedin.com/in/ana-chernov/"><span
+                    class="icon-linkedin"></span></a></li>
             </ul>
           </div>
         </div>
-        <div class="col-md">
-          <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Quick Links</h2>
-            <ul class="list-unstyled">
-              <li><a href="#" class="py-2 d-block">Home</a></li>
-              <li><a href="#" class="py-2 d-block">About</a></li>
-              <li><a href="#" class="py-2 d-block">Services</a></li>
-              <li><a href="#" class="py-2 d-block">Portfolio</a></li>
-              <li><a href="#" class="py-2 d-block">Contact</a></li>
-              <li><a href="#" class="py-2 d-block">Privacy</a></li>
-            </ul>
-          </div>
+
+        <div class="col-md-2 col-lg-2">
+
         </div>
-        <div class="col-md">
+
+        <div class="col-md-4 col-lg-4">
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Contact Information</h2>
             <ul class="list-unstyled">
-              <li><a href="#" class="py-2 d-block">198 West 21th Street, Suite 721 New York NY 10016</a></li>
-              <li><a href="#" class="py-2 d-block">+ 1235 2355 98</a></li>
-              <li><a href="#" class="py-2 d-block">info@yoursite.com</a></li>
-              <li><a href="#" class="py-2 d-block">email@email.com</a></li>
+
+              <li><a href="#" class="py-2 d-block">anastasia.chernov@gmail.com</a></li>
+
             </ul>
           </div>
         </div>
-        <div class="col-md">
+        <!-- <div class="col-md">
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Newsletter</h2>
             <p>Far far away, behind the word mountains, far from the countries.</p>
@@ -458,7 +504,7 @@
               </div>
             </form>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="row">
         <div class="col-md-12 text-center">
