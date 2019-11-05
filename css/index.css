@@ -1,0 +1,9 @@
+.mybtn a {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  transition: all 0.25s ease-in;
+  margin: 10px 2px;
+}
+
+.mybtn a:hover {
+  background-color: #78d5ef !important;
+}
